@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>form.html</title>
+</head>
+
+<body>
+
+	<h1>[ 폼 만들기 ]</h1>
+
+	<form method="post" action="index.html">
+		<p>ID 		<input type="text" name="id" value="value값"></p>
+		<p>이름 		<input type="text" name="name" placeholder="이곳에 이름을 입력하세요."></p>
+		<p>비밀번호 	<input type="password" name="pw"></p>
+		<P>나이 		<input type="number" name="age"></p>
+		<p>생년월일 	<input type="date" name="birth"></p>
+		<p>이메일 	<input type="email" name="email" placeholder="abc@gmail.com"></p>
+
+		<p>안내메일 수신	<input type="checkbox" name="mail" value="mail"></p>
+
+		<p>관심분야		<input type="checkbox" name="favor" value="1" checked>Java	
+				<input type="checkbox" name="favor" value="2">HTML
+				<input type="checkbox" name="favor" value="3">DB</p>
+				
+		<p>통신사			<input type="radio" name="tel" value="sk">SK
+				<input type="radio" name="tel" value="kt">KT
+				<input type="radio" name="tel" value="lg">LG</p>
+
+		<p>사진첨부 		<input type="file" name="photo"></p>
+
+		<p>직업			<select name="job" size="3" multiple="multiple">
+					<option value="1"> 학생 </option>
+					<option value="2"> 회사원 </option>
+					<option value="3"> 기타 </option>
+				</select>			
+
+		<p>자기소개 <textarea rows="5" cols="50" name="ta">입력하세요.</textarea></p>	
+
+		<p><input type="reset" value="다시쓰기">
+		<input type="submit" value="전송">
+		</p>
+	</form>
+</body>
+
+</html>
