@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>css1.html</title>
+<style>
+	h1 { 
+		color: #C71585; 			/* 글자 색상 */
+		background: #EEE8AA;		/* 배경색 */
+		border-width: 2px;			/* 테두리 굵기 */		
+		border-color: blue;			/* 테두리 색상 */
+		border-style: dashed;		/* 테두리 모양 */
+		width: 500px;				/* 가로 크기 */
+		height: 30px;				/* 세로 크기 */
+		font-size: 25px;			/* 글자 크기 */
+		font-family: 궁서체;			/* 글꼴 */
+		font-weight: normal;		/* 글자 굵기 */
+		text-align: center;			/* 글자 정렬 */
+		margin: 10px;				/* 외부 여백 */
+		padding: 10px;				/* 내부 여백 */
+		outline: 5px dotted green;
+		align-content: center;
+	} 
+	p {
+		color: #000000;				/* 글자 색상 */	 
+	}	
+	table {
+		width: 500px;				/* 가로 크기 */
+		height: 300px;				/* 세로 크기 */
+		margin: 0px auto;			/* 가운데 정렬 */
+	}
+	#text1 { color: red; }			/* 글자 색상 */
+	.bluetext {	color: blue; }		/* 글자 색상 */
+	p.bluetext { color: gray; }		/* 글자 색상 */
+
+</style>	
+</head>
+<body>
+<h1>[ css 사용하기 ]</h1>
+<h2>- 내부 정의</h2>
+
+<p>p태그를 사용한 문자열</p>
+<p>p태그를 사용한 문자열</p>
+<p id="text1">p태그를 사용한 문자열</p>
+<p class="bluetext">p태그를 사용한 문자열</p>
+<p class="bluetext">p태그를 사용한 문자열</p>
+
+<p><a href="form.html">a태그를 사용한 링크</a>
+<p><img src="image/bells.png"></p>
+
+<table>
+	<tr>
+		<th>표 안의 문자열</th>
+		<th>표 안의 문자열</th>
+	</tr>
+	<tr>
+		<td>표 안의 문자열</td>
+		<td>표 안의 문자열</td>
+	</tr>
+</table>
+</body>
+</html>
