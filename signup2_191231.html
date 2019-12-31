@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>signup2.html</title>
+<link href="css/signup.css" rel="stylesheet">
+</head>
+
+<body>
+<h1>고양이 사진 투고 양식</h1>
+<p>필요한 사항을 기입한 후 투고 버튼을 눌러 주세요.</p>
+<form method="post" action="index.html"> </form>
+<table border="1">
+	<tr>
+		<th>
+			<p>고양이 이름 : </p>
+		</th>
+		<td>
+			<p><input type="text" name="catname"></p>
+		</td>
+	</tr>
+	
+	<tr>
+		<th>
+			<p>주소 : </p>
+		</th>
+		<td>
+			<p>
+			<select name="address" size="1">
+				<option value="0">선택해 주세요.</option>
+				<option value="1">서울</option>
+				<option value="2">경기도</option>
+				<option value="3">인천</option>
+				<option value="4">부산</option>
+				<option value="5">대구</option>
+				<option value="6">대전</option>
+				<option value="7">광주</option>
+				<option value="8">울산</option>
+				<option value="9">제주</option>
+				<option value="10">강원도</option>
+				<option value="11">충청북도</option>
+				<option value="12">충청남도</option>
+				<option value="13">전라북도</option>
+				<option value="14">전라남도</option>
+				<option value="15">경상북도</option>
+				<option value="16">경상남도</option>	
+			</select>		
+			</p>
+		</td>
+	</tr>
+	
+	<tr>
+		<th>
+			<p>성별 : </p>
+		</th>
+		<td>
+			<p>
+			<input type="radio" name="sex" value="male" checked>남자
+			<input type="radio" name="sex" value="female">여자
+			</p>
+		</td>
+	</tr>
+	
+	<tr>
+		<th>
+			<p>좋아하는 것 : </p>
+		</th>
+		<td>
+			<p>
+				<input type="checkbox" name="like" value="1">생선
+				<input type="checkbox" name="like" value="2">고기
+				<input type="checkbox" name="like" value="3">우유
+				<input type="checkbox" name="like" value="4">바삭바삭한 것
+				<input type="checkbox" name="like" value="5">고양이 통조림
+				<input type="checkbox" name="like" value="6">단것
+			</p>
+		</td>
+	</tr>
+	
+	<tr>
+		<th>
+			<p>사진 : </p>
+		</th>
+		<td>
+			<p><input type="file" name="photo"></p>
+		</td>
+	</tr>
+	
+	<tr>
+		<th>
+			<p>기르는 주인 이름 : </p>
+		</th>
+		<td>
+			<p><input type="text" name="mastername"></p>
+		</td>
+	</tr>
+	
+	<tr>
+		<th>
+			<p>메일 주소 : </p>
+		</th>
+		<td>
+			<p><input type="email" name="mail"></p>
+		</td>
+	</tr>
+	
+	<tr>
+		<th>
+			<p>코멘트 : </p>
+		</th>
+		<td>
+			<p><textarea rows="7" cols="70" name="memo"></textarea></p>
+		</td>
+	</tr>
+	
+
+</table>
+<p>
+<input type="reset" value="취소">
+<input type="submit" value="투고">
+</p>
+<p>Copyright ⓒ UCHI NYAN'S ALL Rights Reserved.</p>
+</body>
+</html>

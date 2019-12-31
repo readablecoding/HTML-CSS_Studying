@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+h1{	
+	color: green;
+	font-size: 50px;
+}
+input[type="text"]{
+	width: 400px;
+}
+input[type="email"]{
+	width: 400px;
+}
+input[type="submit"]{
+	background: #FFA07A;
+}
+th{
+	background: #FFB6C1;
+}

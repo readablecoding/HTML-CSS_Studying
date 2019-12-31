@@ -1,0 +1,59 @@
+@charset "UTF-8";
+h1 { 
+		color: #C71585; 			/* 글자 색상 */
+		background: #EEE8AA;		/* 배경색 */
+		border-width: 2px;			/* 테두리 굵기 */		
+		border-color: blue;			/* 테두리 색상 */
+		border-style: dashed;		/* 테두리 모양 */
+		width: 500px;				/* 가로 크기 */
+		height: 30px;				/* 세로 크기 */
+		font-size: 25px;			/* 글자 크기 */
+		font-family: 궁서체;			/* 글꼴 */
+		font-weight: normal;		/* 글자 굵기 */
+		text-align: center;			/* 글자 정렬 */
+		margin: 10px;				/* 외부 여백 */
+		padding: 10px;				/* 내부 여백 */
+		outline: 5px dotted green;
+		align-content: center;
+} 
+p {
+		color: #000000;				/* 글자 색상 */	 
+}	
+table {
+		width: 500px;				/* 가로 크기 */
+		height: 300px;				/* 세로 크기 */
+		margin: 0px auto;			/* 가운데 정렬 */
+}
+#text1 { color: red; }			/* 글자 색상 */
+.bluetext {	color: blue; }		/* 글자 색상 */
+p.bluetext { color: gray; }		/* 글자 색상 */
+	
+#mytable th{
+		background: yellow;
+}
+#div1 > p {
+		background: #FF9B00;
+}
+	
+input[type="text"]{				/*타입이 텍스트인 경우 배경 변경 */
+		background: #9400D3;
+}
+input[type="password"]{ 		/*비밀번호 속성 변경 */
+		border: 1px solid black;
+		background: red;
+		color: white;
+}
+input[type="submit"]{
+		border: 2px solid black;
+		background: green;
+		color: black;
+}
+input[type="reset"]{
+		border: 2px solid black;
+		background: #ADD8E6;
+		color: black;
+}
+a:link { color: black; text-decoration: none; }  						/*미방문 링크 */
+a:visited { color: black; text-decoration: none; }						/*방문한 링크*/
+a:hover { color: red; text-decoration: underline; cursor: move; }		/*마우스 포인터 올려놓음*/
+a:active {color: red; background: yellow; text-decoration: underline; }	/*마우스 눌렀을 때*/
